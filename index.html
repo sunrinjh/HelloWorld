@@ -1,34 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"
-    <title>풀씨 웹세미나~</title>
-</head>
-<body>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>web-basic-seminar</title>
+  </head>
+  <body>
     <header>
-        <a href="index.html"><img src="./5301568.png"></a>
-        <nav>
-            <ul>
-                <li>소개</li>
-                <li>html</li>
-                <li>css</li>
-                <li>JavaScript</li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <img src="./5301568.png" />
+      </a>
+      <nav>
+        <ul>
+          <li>소개</li>
+          <li>html</li>
+          <li>css</li>
+          <li>JavaScript</li>
+        </ul>
+      </nav>
     </header>
-    <div>
-        
-    </div>
+    <div id="content">풀씨 웹세미나입니다.</div>
     <aside>
-        <nav>
-
-        </nav>
+      <nav>
+        <ul>
+          <li>소개</li>
+          <li>html</li>
+          <li>css</li>
+          <li>JavaScript</li>
+        </ul>
+      </nav>
     </aside>
-    <footer>
-        Discord acer4077#0303
-    </footer>
-</body>
+    <footer>웹 세미나 문의: 010-5357-8001</footer>
+    <!-- <script>
+        const content = document.getElementById("content");
+        const footer = document.getElementsByTagName("footer")[0];
+        footer.addEventListener("click", function () {
+            footer.innerText="웹 세미나 문의: 010-xxxx-xxxx";
+        });
+        content.addEventListener("mouseover", function () {
+            content.innerText="웹세미나 다털렸죠";
+        })
+        content.addEventListener("mouseleave", function () {
+            content.innerText="풀씨 웹세미나입니다.";
+        })
+    </script> -->
+  </body>
 </html>
