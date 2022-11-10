@@ -15,20 +15,19 @@
       <nav>
         <ul class="nav1">
           <li><a href="index.html">소오개</a></li>
-          <li><a onclick="select('html')">html</a></li>
-          <li><a onclick="select('css')">css</a></li>
-          <li><a onclick="select('javascript')">JavaScript</a></li>
-          
+          <li><a href="html.html">html</a></li>
+          <li><a href="css.html">css</a></li>
+          <li><a href="javascript.html">JavaScript</a></li>
         </ul>
       </nav>
     </header>
-    <div class="wrapper contents" id="wrapper">풀씨 웹세미나입니다.</div>
+    <div class="wrapper contents">Here is CSS</div>
     <aside>
       <ul class="aside_list">
         <li><a href="index.html">소오개</a></li>
-        <li><a onclick="select('html')">html</a></li>
-        <li><a onclick="select('css')">css</a></li>
-        <li><a onclick="select('javascript')">JavaScript</a></li>
+        <li><a href="html.html">html</a></li>
+        <li><a href="css.html">css</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
       </ul>
     </aside>
     <footer class="wrapper">웹 세미나 문의: 010-5357-8001</footer>
@@ -45,29 +44,5 @@
             content.innerText="풀씨 웹세미나입니다.";
         })
     </script> -->
-    <script>
-      const content = document.getElementById("wrapper");
-      
-      const js = `<div style="background-color: red">javascript</div>`;
-      const css = `<div style="background-color: blue">css</div>`;
-      const html = `<div style="background-color: green">html</div>`;
-
-      function select(page) {
-        content.innerHTML = eval(page);
-
-        // switch (page) {
-        //   case "html":
-        //     content.innerHTML = html;
-        //     break;
-        //   case "css":
-        //     content.innerHTML = css;
-        //     break;
-        //   case "javascript":
-        //     content.innerHTML = js;
-        //     break;
-        //}
-        
-      }
-    </script>
   </body>
 </html>

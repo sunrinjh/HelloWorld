@@ -63,3 +63,7 @@ footer{
     text-align: center;
     padding: 26px 0;
 }
+
+a{
+    cursor: pointer;
+}
